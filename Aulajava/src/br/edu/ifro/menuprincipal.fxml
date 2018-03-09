@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="419.0" prefWidth="637.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.menuprincipalController">
+    <children>
+      <ImageView fitHeight="423.0" fitWidth="637.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutY="32.0" mnemonicParsing="false" text="MEUS FAVORIDOS" />
+      <Button layoutY="272.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" text="RESERVAS" />
+      <Button layoutY="186.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" text="MAIS LIDOS" />
+      <Button layoutY="326.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" text="EMPRESTIMO" />
+      <Button layoutY="109.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" text="HISTORICOS" />
+      <Label layoutX="158.0" layoutY="27.0" text="Seja Bem Vindo Floriano!">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="385.0" layoutY="57.0" mnemonicParsing="false" text="BUSCAR" />
+      <ComboBox layoutX="158.0" layoutY="57.0" prefHeight="25.0" prefWidth="197.0" promptText="Sidney Sheldon" />
+      <TableView layoutX="158.0" layoutY="122.0" prefHeight="223.0" prefWidth="289.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="TITULOS" />
+            <TableColumn prefWidth="116.0" text="DISPONIBILIDADE" />
+          <TableColumn prefWidth="97.0" text="AUTOR" />
+        </columns>
+      </TableView>
+      <Button layoutX="416.0" layoutY="374.0" mnemonicParsing="false" text="FECHAR" />
+      <Button layoutX="503.0" layoutY="374.0" mnemonicParsing="false" text="SALVAR" />
+    </children>
+</AnchorPane>
